@@ -1,0 +1,1152 @@
+2018-05-02 15:20:47,941   493 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 87 main - using default service name: >X2C_COMMUNICATOR<
+2018-05-02 15:20:47,942   494 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 91 main - entry
+2018-05-02 15:20:48,015   567 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 32 <init> - entry
+2018-05-02 15:20:48,015   567 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 33 <init> - exit
+2018-05-02 15:20:48,015   567 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 465 setWorkingDirectory - entry params(C:\Users\M18034\Google Drive\projektek\X2C_board\exp_boards\DC\X2C_LowEndMotorShield_V01.X\mcc_generated_files\X2CCode)
+2018-05-02 15:20:48,015   567 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 482 setWorkingDirectory - exit
+2018-05-02 15:20:48,016   568 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 208 refresh - entry
+2018-05-02 15:20:48,016   568 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 215 refresh - exit with([])
+2018-05-02 15:20:48,016   568 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorRMI 63 createCommunicator - entry
+2018-05-02 15:20:48,742  1294 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,745  1297 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 80 <init> - entry
+2018-05-02 15:20:48,745  1297 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,746  1298 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:20:48,746  1298 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,746  1298 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 82 <init> - exit
+2018-05-02 15:20:48,746  1298 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 80 <init> - entry
+2018-05-02 15:20:48,746  1298 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,746  1298 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: None
+2018-05-02 15:20:48,746  1298 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,747  1299 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 82 <init> - exit
+2018-05-02 15:20:48,747  1299 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 259 readTemplate - read BlockLicense templates file: C:\X2Cintern\trunk\X2C1116\System\Java\LicenseTemplate_default.xml
+2018-05-02 15:20:48,747  1299 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,782  1334 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,782  1334 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,782  1334 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,808  1360 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,808  1360 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,831  1383 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,831  1383 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,831  1383 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,832  1384 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,833  1385 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,855  1407 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,855  1407 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,855  1407 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,856  1408 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,856  1408 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,877  1429 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,878  1430 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,878  1430 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,879  1431 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,879  1431 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,900  1452 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,901  1453 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,901  1453 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,902  1454 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,902  1454 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,925  1477 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,925  1477 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,925  1477 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,926  1478 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,926  1478 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,947  1499 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,947  1499 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,948  1500 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,949  1501 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,949  1501 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,971  1523 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,971  1523 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,971  1523 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,973  1525 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,973  1525 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:48,993  1545 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:48,993  1545 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:48,994  1546 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:48,995  1547 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:48,995  1547 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,015  1567 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,015  1567 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:49,015  1567 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,016  1568 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,017  1569 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,036  1588 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,037  1589 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:49,037  1589 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,038  1590 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,038  1590 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,059  1611 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,059  1611 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:20:49,059  1611 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,061  1613 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,061  1613 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,082  1634 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,082  1634 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,082  1634 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,140  1692 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,141  1693 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,168  1720 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,168  1720 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,169  1721 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,222  1774 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,222  1774 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,242  1794 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,243  1795 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,243  1795 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,279  1831 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,279  1831 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,297  1849 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,297  1849 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,298  1850 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,337  1889 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,338  1890 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,359  1911 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,359  1911 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,359  1911 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,373  1925 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,373  1925 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,396  1948 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,396  1948 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,396  1948 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,404  1956 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,404  1956 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,435  1987 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,435  1987 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,435  1987 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,439  1991 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,440  1992 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,476  2028 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,476  2028 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,477  2029 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,483  2035 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,484  2036 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,510  2062 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,510  2062 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,510  2062 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,514  2066 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,515  2067 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,532  2084 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,533  2085 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,533  2085 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,535  2087 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,535  2087 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,553  2105 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,553  2105 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,553  2105 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,574  2126 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,574  2126 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,595  2147 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,595  2147 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,595  2147 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,628  2180 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,628  2180 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,646  2198 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,646  2198 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,646  2198 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,676  2228 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,676  2228 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,693  2245 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,693  2245 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,693  2245 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,727  2279 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:20:49,728  2280 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:20:49,747  2299 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:20:49,747  2299 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:20:49,747  2299 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:20:49,759  2311 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:49,759  2311 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:49,759  2311 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:49,760  2312 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:49,761  2313 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:49,761  2313 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,184  2736 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,184  2736 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,185  2737 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,186  2738 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,186  2738 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,187  2739 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,187  2739 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,188  2740 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,189  2741 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,189  2741 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,189  2741 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,189  2741 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,189  2741 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,193  2745 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,193  2745 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,194  2746 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,195  2747 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,195  2747 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,195  2747 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,196  2748 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,196  2748 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,197  2749 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,198  2750 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,198  2750 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,198  2750 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,201  2753 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,201  2753 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,201  2753 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,208  2760 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,208  2760 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.gui.communicator.Communicator 1423 updateProtocolFromGui - entry
+2018-05-02 15:20:50,208  2760 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,208  2760 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,208  2760 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,209  2761 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,210  2762 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,210  2762 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,210  2762 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,210  2762 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,210  2762 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,208  2760 ERROR      CATCHING[ EXCEPTION ] at.lcm.x2c.gui.communicator.Communicator 1443 updateProtocolFromGui - catching java.lang.NullPointerException
+	at at.lcm.x2c.gui.communicator.SerialConfigPanel.getHwInterface(SerialConfigPanel.java:218) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.InterfacePanel.getHwInterface(InterfacePanel.java:189) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator.getHwInterfaceSelection(Communicator.java:1861) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.ProtocolPanel.getProtocol(ProtocolPanel.java:132) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator.updateProtocolFromGui(Communicator.java:1426) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1333) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1329) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:277) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [?:1.6.0_41]
+	at javax.swing.SwingWorker.run(SwingWorker.java:316) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918) [?:1.6.0_41]
+	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_41]
+
+2018-05-02 15:20:50,215  2767 TRACE      EXIT[ FLOW ]         at.lcm.x2c.gui.communicator.Communicator 1446 updateProtocolFromGui - exit
+2018-05-02 15:20:50,215  2767 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorRMI 72 createCommunicator - exit
+2018-05-02 15:20:50,219  2771 ERROR      CATCHING[ EXCEPTION ] at.lcm.x2c.gui.communicator.Communicator$35 1340 doInBackground - catching java.io.IOException: Port 'COM36' does not exist on this system
+	at at.lcm.communication.hardware.Serial.fopen(Serial.java:538) ~[Hardware.jar:local rlocal -- 2017-02-14 13:46:51]
+	at at.lcm.x2c.communication.protocol.LNet.fopen(LNet.java:281) ~[Core.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1336) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1329) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:277) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [?:1.6.0_41]
+	at javax.swing.SwingWorker.run(SwingWorker.java:316) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918) [?:1.6.0_41]
+	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_41]
+
+2018-05-02 15:20:50,246  2798 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,247  2799 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,248  2800 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,249  2801 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,249  2801 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,249  2801 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,249  2801 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,249  2801 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:50,250  2802 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:20:50,250  2802 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:20:50,250  2802 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:20:50,251  2803 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:20:50,252  2804 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:20:50,252  2804 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:20:51,221  3773 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 99 main - rmiregistry not found: starting one
+2018-05-02 15:20:51,223  3775 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 103 main - Server ready
+2018-05-02 15:20:51,223  3775 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 111 main - exit
+2018-05-02 15:20:51,517  4069 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 119 getX2cCommunicator - entry params(null)
+2018-05-02 15:20:51,524  4076 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 137 getX2cCommunicator - Connection from Client established
+2018-05-02 15:20:51,525  4077 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 138 getX2cCommunicator - number of open communicators: 1
+2018-05-02 15:20:51,525  4077 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 139 getX2cCommunicator - exit with(X2cCommunicatorRMI[UnicastServerRef [liveRef: [endpoint:[192.168.6.147:50229](local),objID:[6e26475d:16321033349:-7fff, -4578806361456153749]]]])
+2018-05-02 15:20:51,561  4113 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorRMI 145 addX2cRMIConnectionListener - X2cRMIConnectionListener added: Proxy[X2cRMIConnectionListener,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.6.147:50234](remote),objID:[-4236273:16321026d83:-7f16, -1953744303706575814]]]]]
+2018-05-02 15:20:51,571  4123 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorRMI 189 addX2cRMIModelListener - X2cRMIModelListener added: Proxy[X2cRMIModelListener,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.6.147:50234](remote),objID:[-4236273:16321026d83:-7f14, -1098439443270887627]]]]]
+2018-05-02 15:21:03,645 16197 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 123 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control)
+2018-05-02 15:21:03,645 16197 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 48 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control)
+2018-05-02 15:21:03,645 16197 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 55 addPath - exit
+2018-05-02 15:21:03,646 16198 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 225 refreshAddTopDirOfLib - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control)
+2018-05-02 15:21:03,646 16198 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibraryManager 227 refreshAddTopDirOfLib - path to refresh: C:\X2Cintern\trunk\X2C1116\Library\Control
+2018-05-02 15:21:03,646 16198 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 264 refreshAddTop - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control)
+2018-05-02 15:21:03,647 16199 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 48 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control)
+2018-05-02 15:21:03,647 16199 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 133 updateJavaClasspath - entry
+2018-05-02 15:21:03,648 16200 INFO                            at.lcm.x2c.core.librarymanager.X2cLibrary 142 updateJavaClasspath - jar shall be added to classpath: >C:\X2Cintern\trunk\X2C1116\Library\Control\Conversion\Java\Control.jar<
+2018-05-02 15:21:03,648 16200 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 100 updateJar - entry params(file:/C:/X2Cintern/trunk/X2C1116/Library/Control/Conversion/Java/Control.jar)
+2018-05-02 15:21:03,649 16201 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 116 updateJar - adding url to classpath: file:/C:/X2Cintern/trunk/X2C1116/Library/Control/Conversion/Java/Control.jar
+2018-05-02 15:21:03,649 16201 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 120 updateJar - [file:/C:/X2Cintern/trunk/X2C1116/System/Scilab/Java/dist/X2cScilab.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Core.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Communicator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/BlockGenerator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/General/general.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-api-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-core-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-cli-1.2/commons-cli-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-lang3-3.1/commons-lang3-3.1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Communication/Hardware.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/RXTX-create-lab-commons/RXTXcomm.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/PCAN-Basic/PCAN-Basic.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JD2XX/jd2xx.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/MigLayout/miglayout-3.7.4-swing.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/cloning-1.7.4.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/objenesis-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Commons/commons-math3-3.0.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jcommon-1.0.16.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart_extension.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart-1.0.13.jar, file:/C:/Users/M18034/Google%20Drive/projektek/X2C_board/exp_boards/DC/X2C_LowEndMotorShield_V01.X/mcc_generated_files/X2CCode/, file:/C:/X2Cintern/trunk/X2C1116/Library/Control/Conversion/Java/Control.jar]
+2018-05-02 15:21:03,649 16201 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 124 updateJar - exit
+2018-05-02 15:21:03,649 16201 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 153 updateJavaClasspath - exit
+2018-05-02 15:21:03,650 16202 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\AdaptivePT1.xml)
+2018-05-02 15:21:03,671 16223 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,672 16224 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,689 16241 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,690 16242 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,690 16242 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,699 16251 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.AdaptivePT1 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\AdaptivePT1.xml])
+2018-05-02 15:21:03,699 16251 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\Delay.xml)
+2018-05-02 15:21:03,712 16264 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,712 16264 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,728 16280 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,729 16281 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,729 16281 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,732 16284 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.Delay componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\Delay.xml])
+2018-05-02 15:21:03,732 16284 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\DT1.xml)
+2018-05-02 15:21:03,746 16298 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,746 16298 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,763 16315 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,763 16315 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,763 16315 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,780 16332 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,780 16332 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,796 16348 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,796 16348 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,797 16349 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,822 16374 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,823 16375 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,839 16391 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,839 16391 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,839 16391 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,865 16417 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,865 16417 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,881 16433 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,881 16433 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,881 16433 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,906 16458 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,906 16458 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,921 16473 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,922 16474 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,922 16474 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,945 16497 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,945 16497 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,961 16513 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,961 16513 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,961 16513 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:03,971 16523 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.DT1 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\DT1.xml])
+2018-05-02 15:21:03,971 16523 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\I.xml)
+2018-05-02 15:21:03,983 16535 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:03,983 16535 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:03,999 16551 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:03,999 16551 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:03,999 16551 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,006 16558 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.I componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\I.xml])
+2018-05-02 15:21:04,007 16559 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PI.xml)
+2018-05-02 15:21:04,019 16571 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,020 16572 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,037 16589 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,037 16589 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,037 16589 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,053 16605 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,053 16605 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,076 16628 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,076 16628 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,076 16628 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,106 16658 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,106 16658 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,124 16676 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,124 16676 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,124 16676 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,153 16705 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,153 16705 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,169 16721 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,169 16721 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,170 16722 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,181 16733 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.PI componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PI.xml])
+2018-05-02 15:21:04,181 16733 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PID.xml)
+2018-05-02 15:21:04,194 16746 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,194 16746 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,212 16764 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,212 16764 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,213 16765 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,232 16784 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,232 16784 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,251 16803 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,251 16803 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,251 16803 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,283 16835 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,284 16836 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,301 16853 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,301 16853 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,301 16853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,333 16885 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,334 16886 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,352 16904 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,352 16904 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,352 16904 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,373 16925 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.PID componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PID.xml])
+2018-05-02 15:21:04,373 16925 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PIDLimit.xml)
+2018-05-02 15:21:04,390 16942 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,390 16942 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,412 16964 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,412 16964 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,412 16964 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,427 16979 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.PIDLimit componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PIDLimit.xml])
+2018-05-02 15:21:04,428 16980 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PILimit.xml)
+2018-05-02 15:21:04,440 16992 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,440 16992 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,457 17009 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,457 17009 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,457 17009 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,465 17017 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.PILimit componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PILimit.xml])
+2018-05-02 15:21:04,465 17017 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PT1.xml)
+2018-05-02 15:21:04,480 17032 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,481 17033 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,501 17053 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,502 17054 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,502 17054 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,520 17072 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,520 17072 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,538 17090 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,539 17091 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,539 17091 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,558 17110 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,558 17110 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,574 17126 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,575 17127 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,575 17127 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,594 17146 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,595 17147 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,614 17166 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,614 17166 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,614 17166 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,634 17186 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,634 17186 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,651 17203 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,651 17203 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,652 17204 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,670 17222 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,670 17222 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,686 17238 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,687 17239 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,687 17239 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,693 17245 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.PT1 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\PT1.xml])
+2018-05-02 15:21:04,693 17245 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TDSystemO1.xml)
+2018-05-02 15:21:04,705 17257 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,705 17257 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,721 17273 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,721 17273 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,722 17274 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,731 17283 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.TDSystemO1 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TDSystemO1.xml])
+2018-05-02 15:21:04,731 17283 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TDSystemO2.xml)
+2018-05-02 15:21:04,744 17296 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,744 17296 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,761 17313 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,761 17313 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,762 17314 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,776 17328 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.TDSystemO2 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TDSystemO2.xml])
+2018-05-02 15:21:04,776 17328 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TF1.xml)
+2018-05-02 15:21:04,787 17339 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,788 17340 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,805 17357 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,805 17357 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,805 17357 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,811 17363 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.TF1 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TF1.xml])
+2018-05-02 15:21:04,811 17363 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TF2.xml)
+2018-05-02 15:21:04,823 17375 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,823 17375 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,840 17392 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,840 17392 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,840 17392 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,850 17402 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.TF2 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\TF2.xml])
+2018-05-02 15:21:04,851 17403 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Control\XML\uI.xml)
+2018-05-02 15:21:04,861 17413 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,862 17414 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,878 17430 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,878 17430 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,878 17430 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,882 17434 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Control.uI componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Control\XML\uI.xml])
+2018-05-02 15:21:04,882 17434 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 91 <init> - exit
+2018-05-02 15:21:04,883 17435 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 281 refreshAddTop - exit with(X2cLibrary [libraryName=Control])
+2018-05-02 15:21:04,883 17435 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 254 refreshAddTopDirOfLib - exit with([X2cLibrary [libraryName=Control]])
+2018-05-02 15:21:04,883 17435 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 130 addPath - exit with([X2cLibrary [libraryName=Control]])
+2018-05-02 15:21:04,883 17435 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 123 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math)
+2018-05-02 15:21:04,883 17435 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 48 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math)
+2018-05-02 15:21:04,883 17435 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 55 addPath - exit
+2018-05-02 15:21:04,883 17435 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 225 refreshAddTopDirOfLib - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math)
+2018-05-02 15:21:04,883 17435 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibraryManager 227 refreshAddTopDirOfLib - path to refresh: C:\X2Cintern\trunk\X2C1116\Library\Math
+2018-05-02 15:21:04,883 17435 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 264 refreshAddTop - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math)
+2018-05-02 15:21:04,884 17436 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 48 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math)
+2018-05-02 15:21:04,884 17436 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 133 updateJavaClasspath - entry
+2018-05-02 15:21:04,884 17436 INFO                            at.lcm.x2c.core.librarymanager.X2cLibrary 142 updateJavaClasspath - jar shall be added to classpath: >C:\X2Cintern\trunk\X2C1116\Library\Math\Conversion\Java\Math.jar<
+2018-05-02 15:21:04,885 17437 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 100 updateJar - entry params(file:/C:/X2Cintern/trunk/X2C1116/Library/Math/Conversion/Java/Math.jar)
+2018-05-02 15:21:04,885 17437 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 116 updateJar - adding url to classpath: file:/C:/X2Cintern/trunk/X2C1116/Library/Math/Conversion/Java/Math.jar
+2018-05-02 15:21:04,885 17437 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 120 updateJar - [file:/C:/X2Cintern/trunk/X2C1116/System/Scilab/Java/dist/X2cScilab.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Core.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Communicator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/BlockGenerator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/General/general.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-api-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-core-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-cli-1.2/commons-cli-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-lang3-3.1/commons-lang3-3.1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Communication/Hardware.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/RXTX-create-lab-commons/RXTXcomm.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/PCAN-Basic/PCAN-Basic.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JD2XX/jd2xx.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/MigLayout/miglayout-3.7.4-swing.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/cloning-1.7.4.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/objenesis-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Commons/commons-math3-3.0.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jcommon-1.0.16.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart_extension.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart-1.0.13.jar, file:/C:/Users/M18034/Google%20Drive/projektek/X2C_board/exp_boards/DC/X2C_LowEndMotorShield_V01.X/mcc_generated_files/X2CCode/, file:/C:/X2Cintern/trunk/X2C1116/Library/Control/Conversion/Java/Control.jar, file:/C:/X2Cintern/trunk/X2C1116/Library/Math/Conversion/Java/Math.jar]
+2018-05-02 15:21:04,885 17437 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 124 updateJar - exit
+2018-05-02 15:21:04,885 17437 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 153 updateJavaClasspath - exit
+2018-05-02 15:21:04,886 17438 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Abs.xml)
+2018-05-02 15:21:04,900 17452 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,900 17452 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,919 17471 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,919 17471 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,919 17471 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,920 17472 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Abs componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Abs.xml])
+2018-05-02 15:21:04,921 17473 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Add.xml)
+2018-05-02 15:21:04,935 17487 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,936 17488 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,959 17511 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,959 17511 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,959 17511 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:04,960 17512 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Add componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Add.xml])
+2018-05-02 15:21:04,961 17513 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Atan2.xml)
+2018-05-02 15:21:04,975 17527 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:04,975 17527 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:04,999 17551 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:04,999 17551 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:04,999 17551 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,001 17553 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Atan2 componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Atan2.xml])
+2018-05-02 15:21:05,001 17553 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Average.xml)
+2018-05-02 15:21:05,011 17563 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,011 17563 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,027 17579 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,027 17579 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,028 17580 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,038 17590 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Average componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Average.xml])
+2018-05-02 15:21:05,039 17591 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Cos.xml)
+2018-05-02 15:21:05,048 17600 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,048 17600 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,066 17618 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,066 17618 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,066 17618 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,067 17619 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Cos componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Cos.xml])
+2018-05-02 15:21:05,067 17619 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Div.xml)
+2018-05-02 15:21:05,076 17628 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,076 17628 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,096 17648 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,096 17648 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,097 17649 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,098 17650 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Div componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Div.xml])
+2018-05-02 15:21:05,098 17650 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Exp.xml)
+2018-05-02 15:21:05,112 17664 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,113 17665 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,131 17683 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,131 17683 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,131 17683 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,132 17684 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Exp componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Exp.xml])
+2018-05-02 15:21:05,132 17684 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\L2Norm.xml)
+2018-05-02 15:21:05,141 17693 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,142 17694 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,155 17707 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,156 17708 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,156 17708 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,157 17709 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.L2Norm componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\L2Norm.xml])
+2018-05-02 15:21:05,158 17710 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Mult.xml)
+2018-05-02 15:21:05,166 17718 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,167 17719 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,180 17732 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,180 17732 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,180 17732 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,181 17733 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Mult componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Mult.xml])
+2018-05-02 15:21:05,181 17733 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Negation.xml)
+2018-05-02 15:21:05,190 17742 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,190 17742 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,204 17756 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,204 17756 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,204 17756 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,205 17757 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Negation componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Negation.xml])
+2018-05-02 15:21:05,205 17757 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sign.xml)
+2018-05-02 15:21:05,214 17766 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,214 17766 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,228 17780 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,228 17780 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,228 17780 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,228 17780 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Sign componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sign.xml])
+2018-05-02 15:21:05,229 17781 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sin.xml)
+2018-05-02 15:21:05,237 17789 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,237 17789 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,251 17803 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,251 17803 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,251 17803 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,252 17804 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Sin componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sin.xml])
+2018-05-02 15:21:05,252 17804 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sqrt.xml)
+2018-05-02 15:21:05,260 17812 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,260 17812 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,275 17827 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,275 17827 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,275 17827 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,276 17828 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Sqrt componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sqrt.xml])
+2018-05-02 15:21:05,276 17828 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sub.xml)
+2018-05-02 15:21:05,284 17836 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,284 17836 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,301 17853 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,301 17853 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,302 17854 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,302 17854 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Sub componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sub.xml])
+2018-05-02 15:21:05,303 17855 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sum.xml)
+2018-05-02 15:21:05,312 17864 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,312 17864 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,326 17878 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,326 17878 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,327 17879 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,329 17881 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.Sum componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\Sum.xml])
+2018-05-02 15:21:05,329 17881 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\uAdd.xml)
+2018-05-02 15:21:05,338 17890 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,338 17890 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,352 17904 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,352 17904 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: Commercial (LCM)
+2018-05-02 15:21:05,352 17904 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,353 17905 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.uAdd componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\uAdd.xml])
+2018-05-02 15:21:05,353 17905 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Math\XML\uSub.xml)
+2018-05-02 15:21:05,362 17914 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,362 17914 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,376 17928 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,376 17928 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,376 17928 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [Math.uSub componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\Math\XML\uSub.xml])
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 91 <init> - exit
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 281 refreshAddTop - exit with(X2cLibrary [libraryName=Math])
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 254 refreshAddTopDirOfLib - exit with([X2cLibrary [libraryName=Math]])
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 130 addPath - exit with([X2cLibrary [libraryName=Math]])
+2018-05-02 15:21:05,377 17929 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 123 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP)
+2018-05-02 15:21:05,377 17929 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 48 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP)
+2018-05-02 15:21:05,377 17929 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 55 addPath - exit
+2018-05-02 15:21:05,378 17930 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 225 refreshAddTopDirOfLib - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP)
+2018-05-02 15:21:05,378 17930 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibraryManager 227 refreshAddTopDirOfLib - path to refresh: C:\X2Cintern\trunk\X2C1116\Library\MCHP
+2018-05-02 15:21:05,378 17930 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 264 refreshAddTop - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP)
+2018-05-02 15:21:05,378 17930 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 48 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP)
+2018-05-02 15:21:05,378 17930 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 133 updateJavaClasspath - entry
+2018-05-02 15:21:05,378 17930 ERROR                           at.lcm.x2c.core.librarymanager.X2cLibrary 145 updateJavaClasspath - Library's jar file not found: >C:\X2Cintern\trunk\X2C1116\Library\MCHP\Conversion\Java\MCHP.jar< (asuming classes are provided in an other way, e.g. bin dir)
+2018-05-02 15:21:05,378 17930 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 153 updateJavaClasspath - exit
+2018-05-02 15:21:05,379 17931 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\BEMF_calc.xml)
+2018-05-02 15:21:05,388 17940 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,388 17940 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,405 17957 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,405 17957 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,405 17957 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,412 17964 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.BEMF_calc componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\BEMF_calc.xml])
+2018-05-02 15:21:05,413 17965 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\clark.xml)
+2018-05-02 15:21:05,421 17973 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,421 17973 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,435 17987 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,436 17988 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,436 17988 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,436 17988 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Clark componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\clark.xml])
+2018-05-02 15:21:05,436 17988 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\clark_inv.xml)
+2018-05-02 15:21:05,445 17997 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,445 17997 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,459 18011 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,459 18011 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,459 18011 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,460 18012 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Clark_inv componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\clark_inv.xml])
+2018-05-02 15:21:05,460 18012 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\Clark_Park.xml)
+2018-05-02 15:21:05,468 18020 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,468 18020 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,482 18034 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,482 18034 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,482 18034 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,483 18035 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Clark_Park componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\Clark_Park.xml])
+2018-05-02 15:21:05,483 18035 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\park.xml)
+2018-05-02 15:21:05,491 18043 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,491 18043 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,505 18057 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,506 18058 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,506 18058 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,506 18058 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Park componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\park.xml])
+2018-05-02 15:21:05,507 18059 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\Park_Clark_inv.xml)
+2018-05-02 15:21:05,515 18067 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,515 18067 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,531 18083 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,531 18083 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,531 18083 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,532 18084 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Park_Clark_inv componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\Park_Clark_inv.xml])
+2018-05-02 15:21:05,532 18084 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\park_inv.xml)
+2018-05-02 15:21:05,541 18093 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,541 18093 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,557 18109 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,557 18109 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,557 18109 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,558 18110 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.Park_inv componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\park_inv.xml])
+2018-05-02 15:21:05,558 18110 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\SVM.xml)
+2018-05-02 15:21:05,566 18118 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,567 18119 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,584 18136 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,584 18136 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause
+2018-05-02 15:21:05,584 18136 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [MCHP.SVM componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\MCHP\XML\SVM.xml])
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 91 <init> - exit
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 281 refreshAddTop - exit with(X2cLibrary [libraryName=MCHP])
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 254 refreshAddTopDirOfLib - exit with([X2cLibrary [libraryName=MCHP]])
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 130 addPath - exit with([X2cLibrary [libraryName=MCHP]])
+2018-05-02 15:21:05,585 18137 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 123 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\General)
+2018-05-02 15:21:05,585 18137 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 48 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\General)
+2018-05-02 15:21:05,585 18137 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 55 addPath - exit
+2018-05-02 15:21:05,585 18137 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 225 refreshAddTopDirOfLib - entry params(C:\X2Cintern\trunk\X2C1116\Library\General)
+2018-05-02 15:21:05,586 18138 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibraryManager 227 refreshAddTopDirOfLib - path to refresh: C:\X2Cintern\trunk\X2C1116\Library\General
+2018-05-02 15:21:05,586 18138 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 264 refreshAddTop - entry params(C:\X2Cintern\trunk\X2C1116\Library\General)
+2018-05-02 15:21:05,586 18138 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 48 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General)
+2018-05-02 15:21:05,586 18138 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 133 updateJavaClasspath - entry
+2018-05-02 15:21:05,586 18138 INFO                            at.lcm.x2c.core.librarymanager.X2cLibrary 142 updateJavaClasspath - jar shall be added to classpath: >C:\X2Cintern\trunk\X2C1116\Library\General\Conversion\Java\General.jar<
+2018-05-02 15:21:05,587 18139 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 100 updateJar - entry params(file:/C:/X2Cintern/trunk/X2C1116/Library/General/Conversion/Java/General.jar)
+2018-05-02 15:21:05,587 18139 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 116 updateJar - adding url to classpath: file:/C:/X2Cintern/trunk/X2C1116/Library/General/Conversion/Java/General.jar
+2018-05-02 15:21:05,587 18139 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibrary 120 updateJar - [file:/C:/X2Cintern/trunk/X2C1116/System/Scilab/Java/dist/X2cScilab.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Core.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/Communicator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/BlockGenerator.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/General/general.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-api-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/apache-log4j-2.0-rc1/log4j-core-2.0-rc1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-cli-1.2/commons-cli-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/commons-lang3-3.1/commons-lang3-3.1.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Communication/Hardware.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/RXTX-create-lab-commons/RXTXcomm.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/PCAN-Basic/PCAN-Basic.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JD2XX/jd2xx.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/MigLayout/miglayout-3.7.4-swing.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/cloning-1.7.4.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Cloning/objenesis-1.2.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/Commons/commons-math3-3.0.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jcommon-1.0.16.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart_extension.jar, file:/C:/X2Cintern/trunk/X2C1116/System/Java/lib/JFreeChart/jfreechart-1.0.13.jar, file:/C:/Users/M18034/Google%20Drive/projektek/X2C_board/exp_boards/DC/X2C_LowEndMotorShield_V01.X/mcc_generated_files/X2CCode/, file:/C:/X2Cintern/trunk/X2C1116/Library/Control/Conversion/Java/Control.jar, file:/C:/X2Cintern/trunk/X2C1116/Library/Math/Conversion/Java/Math.jar, file:/C:/X2Cintern/trunk/X2C1116/Library/General/Conversion/Java/General.jar]
+2018-05-02 15:21:05,587 18139 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 124 updateJar - exit
+2018-05-02 15:21:05,587 18139 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 153 updateJavaClasspath - exit
+2018-05-02 15:21:05,588 18140 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\And.xml)
+2018-05-02 15:21:05,598 18150 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,598 18150 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,615 18167 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,615 18167 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,615 18167 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,616 18168 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.And componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\And.xml])
+2018-05-02 15:21:05,616 18168 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\AutoSwitch.xml)
+2018-05-02 15:21:05,623 18175 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,623 18175 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,636 18188 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,636 18188 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,637 18189 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,640 18192 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.AutoSwitch componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\AutoSwitch.xml])
+2018-05-02 15:21:05,640 18192 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Constant.xml)
+2018-05-02 15:21:05,647 18199 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,648 18200 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,661 18213 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,661 18213 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,661 18213 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,662 18214 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Constant componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Constant.xml])
+2018-05-02 15:21:05,663 18215 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Gain.xml)
+2018-05-02 15:21:05,670 18222 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,670 18222 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,683 18235 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,683 18235 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,683 18235 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,685 18237 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Gain componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Gain.xml])
+2018-05-02 15:21:05,685 18237 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Inport.xml)
+2018-05-02 15:21:05,693 18245 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,693 18245 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,706 18258 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,706 18258 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:21:05,706 18258 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,707 18259 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Inport componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Inport.xml])
+2018-05-02 15:21:05,707 18259 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Int2Real.xml)
+2018-05-02 15:21:05,715 18267 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,715 18267 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,733 18285 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,733 18285 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,733 18285 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,735 18287 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Int2Real componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Int2Real.xml])
+2018-05-02 15:21:05,735 18287 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Limitation.xml)
+2018-05-02 15:21:05,742 18294 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,742 18294 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,755 18307 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,755 18307 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,755 18307 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,756 18308 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Limitation componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Limitation.xml])
+2018-05-02 15:21:05,756 18308 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\LookupTable.xml)
+2018-05-02 15:21:05,764 18316 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,764 18316 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,778 18330 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,778 18330 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,778 18330 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,779 18331 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.LookupTable componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\LookupTable.xml])
+2018-05-02 15:21:05,780 18332 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\LoopBreaker.xml)
+2018-05-02 15:21:05,787 18339 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,787 18339 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,800 18352 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,800 18352 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,800 18352 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,801 18353 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.LoopBreaker componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\LoopBreaker.xml])
+2018-05-02 15:21:05,801 18353 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\ManualSwitch.xml)
+2018-05-02 15:21:05,808 18360 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,808 18360 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,821 18373 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,821 18373 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,821 18373 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,823 18375 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.ManualSwitch componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\ManualSwitch.xml])
+2018-05-02 15:21:05,823 18375 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Maximum.xml)
+2018-05-02 15:21:05,830 18382 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,830 18382 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,843 18395 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,844 18396 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,844 18396 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,844 18396 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Maximum componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Maximum.xml])
+2018-05-02 15:21:05,845 18397 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Minimum.xml)
+2018-05-02 15:21:05,852 18404 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,852 18404 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,865 18417 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,865 18417 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,865 18417 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,866 18418 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Minimum componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Minimum.xml])
+2018-05-02 15:21:05,866 18418 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\MinMaxPeriodic.xml)
+2018-05-02 15:21:05,873 18425 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,874 18426 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,886 18438 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,887 18439 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,887 18439 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,890 18442 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.MinMaxPeriodic componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\MinMaxPeriodic.xml])
+2018-05-02 15:21:05,890 18442 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Not.xml)
+2018-05-02 15:21:05,897 18449 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,897 18449 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,909 18461 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,909 18461 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,910 18462 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,910 18462 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Not componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Not.xml])
+2018-05-02 15:21:05,910 18462 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Or.xml)
+2018-05-02 15:21:05,917 18469 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,917 18469 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,930 18482 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,930 18482 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,930 18482 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,930 18482 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Or componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Or.xml])
+2018-05-02 15:21:05,931 18483 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Outport.xml)
+2018-05-02 15:21:05,937 18489 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,937 18489 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,950 18502 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,950 18502 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:21:05,950 18502 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,951 18503 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Outport componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Outport.xml])
+2018-05-02 15:21:05,951 18503 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\RateLimiter.xml)
+2018-05-02 15:21:05,958 18510 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,958 18510 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,971 18523 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,971 18523 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,971 18523 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,975 18527 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.RateLimiter componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\RateLimiter.xml])
+2018-05-02 15:21:05,975 18527 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Real2Int.xml)
+2018-05-02 15:21:05,983 18535 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:05,983 18535 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:05,996 18548 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:05,996 18548 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:05,997 18549 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:05,998 18550 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Real2Int componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Real2Int.xml])
+2018-05-02 15:21:05,999 18551 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Saturation.xml)
+2018-05-02 15:21:06,007 18559 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,007 18559 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,020 18572 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,020 18572 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,020 18572 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,022 18574 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Saturation componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Saturation.xml])
+2018-05-02 15:21:06,023 18575 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\SaveSignal.xml)
+2018-05-02 15:21:06,029 18581 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,030 18582 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,043 18595 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,043 18595 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,043 18595 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,044 18596 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.SaveSignal componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\SaveSignal.xml])
+2018-05-02 15:21:06,044 18596 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Selector.xml)
+2018-05-02 15:21:06,051 18603 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,051 18603 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,064 18616 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,064 18616 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,065 18617 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,066 18618 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Selector componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Selector.xml])
+2018-05-02 15:21:06,066 18618 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sequencer.xml)
+2018-05-02 15:21:06,073 18625 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,073 18625 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,086 18638 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,086 18638 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,086 18638 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,092 18644 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Sequencer componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sequencer.xml])
+2018-05-02 15:21:06,092 18644 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sin2Limiter.xml)
+2018-05-02 15:21:06,099 18651 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,100 18652 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,115 18667 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,116 18668 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: 
+2018-05-02 15:21:06,116 18668 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,122 18674 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Sin2Limiter componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sin2Limiter.xml])
+2018-05-02 15:21:06,122 18674 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sin3Gen.xml)
+2018-05-02 15:21:06,129 18681 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,129 18681 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,141 18693 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,142 18694 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,142 18694 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,145 18697 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Sin3Gen componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Sin3Gen.xml])
+2018-05-02 15:21:06,146 18698 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\SinGen.xml)
+2018-05-02 15:21:06,153 18705 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,153 18705 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,166 18718 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,166 18718 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,166 18718 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,170 18722 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.SinGen componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\SinGen.xml])
+2018-05-02 15:21:06,170 18722 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\TypeConv.xml)
+2018-05-02 15:21:06,177 18729 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,177 18729 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,190 18742 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,190 18742 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,190 18742 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,191 18743 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.TypeConv componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\TypeConv.xml])
+2018-05-02 15:21:06,191 18743 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\uConstant.xml)
+2018-05-02 15:21:06,198 18750 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,198 18750 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,210 18762 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,210 18762 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,210 18762 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,212 18764 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.uConstant componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\uConstant.xml])
+2018-05-02 15:21:06,212 18764 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\uGain.xml)
+2018-05-02 15:21:06,219 18771 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,219 18771 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,231 18783 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,231 18783 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,231 18783 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,233 18785 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.uGain componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\uGain.xml])
+2018-05-02 15:21:06,233 18785 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\uRateLimiter.xml)
+2018-05-02 15:21:06,240 18792 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,240 18792 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,254 18806 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,254 18806 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,254 18806 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,257 18809 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.uRateLimiter componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\uRateLimiter.xml])
+2018-05-02 15:21:06,258 18810 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\uSaveSignal.xml)
+2018-05-02 15:21:06,264 18816 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,264 18816 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,278 18830 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,278 18830 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,278 18830 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,279 18831 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.uSaveSignal componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\uSaveSignal.xml])
+2018-05-02 15:21:06,279 18831 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cComponent 41 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\General\XML\Xor.xml)
+2018-05-02 15:21:06,286 18838 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 60 <init> - entry
+2018-05-02 15:21:06,286 18838 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 69 <init> - exit
+2018-05-02 15:21:06,298 18850 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.BlockLicense 108 xml2data - entry
+2018-05-02 15:21:06,298 18850 DEBUG                           at.lcm.x2c.core.structure.BlockLicense 113 xml2data - reading BlockLicense: BSD 3-clause (LCM)
+2018-05-02 15:21:06,298 18850 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.BlockLicense 171 xml2data - exit
+2018-05-02 15:21:06,299 18851 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cComponent 44 <init> - exit with(X2cComponent [General.Xor componentDefinitionXML=C:\X2Cintern\trunk\X2C1116\Library\General\XML\Xor.xml])
+2018-05-02 15:21:06,299 18851 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 91 <init> - exit
+2018-05-02 15:21:06,299 18851 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 281 refreshAddTop - exit with(X2cLibrary [libraryName=General])
+2018-05-02 15:21:06,299 18851 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 254 refreshAddTopDirOfLib - exit with([X2cLibrary [libraryName=General]])
+2018-05-02 15:21:06,299 18851 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 130 addPath - exit with([X2cLibrary [libraryName=General]])
+2018-05-02 15:21:06,299 18851 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 123 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Basic)
+2018-05-02 15:21:06,299 18851 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cPathManager 48 addPath - entry params(C:\X2Cintern\trunk\X2C1116\Library\Basic)
+2018-05-02 15:21:06,300 18852 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cPathManager 55 addPath - exit
+2018-05-02 15:21:06,300 18852 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 225 refreshAddTopDirOfLib - entry params(C:\X2Cintern\trunk\X2C1116\Library\Basic)
+2018-05-02 15:21:06,300 18852 DEBUG                           at.lcm.x2c.core.librarymanager.X2cLibraryManager 227 refreshAddTopDirOfLib - path to refresh: C:\X2Cintern\trunk\X2C1116\Library\Basic
+2018-05-02 15:21:06,300 18852 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibraryManager 264 refreshAddTop - entry params(C:\X2Cintern\trunk\X2C1116\Library\Basic)
+2018-05-02 15:21:06,300 18852 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 48 <init> - entry params(C:\X2Cintern\trunk\X2C1116\Library\Basic)
+2018-05-02 15:21:06,300 18852 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.librarymanager.X2cLibrary 133 updateJavaClasspath - entry
+2018-05-02 15:21:06,300 18852 ERROR                           at.lcm.x2c.core.librarymanager.X2cLibrary 145 updateJavaClasspath - Library's jar file not found: >C:\X2Cintern\trunk\X2C1116\Library\Basic\Conversion\Java\Basic.jar< (asuming classes are provided in an other way, e.g. bin dir)
+2018-05-02 15:21:06,301 18853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 153 updateJavaClasspath - exit
+2018-05-02 15:21:06,301 18853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibrary 91 <init> - exit
+2018-05-02 15:21:06,301 18853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 281 refreshAddTop - exit with(X2cLibrary [libraryName=Basic])
+2018-05-02 15:21:06,301 18853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 254 refreshAddTopDirOfLib - exit with([X2cLibrary [libraryName=Basic]])
+2018-05-02 15:21:06,301 18853 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.librarymanager.X2cLibraryManager 130 addPath - exit with([X2cLibrary [libraryName=Basic]])
+2018-05-02 15:21:06,339 18891 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorRMI 92 setModel - entry params(at.lcm.x2c.core.structure.Model@6e955c85)
+2018-05-02 15:21:06,339 18891 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:21:06,339 18891 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:21:06,339 18891 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:21:06,339 18891 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:21:06,339 18891 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:21:06,340 18892 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:21:06,341 18893 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:21:06,341 18893 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:21:06,341 18893 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:21:06,341 18893 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:21:06,341 18893 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:21:06,747 19299 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:21:06,747 19299 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:21:06,748 19300 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:21:06,749 19301 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:21:06,749 19301 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:21:06,749 19301 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:21:06,750 19302 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:21:06,751 19303 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:21:06,752 19304 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorRMI 203 x2cRMIModelListener_setNewModel - entry
+2018-05-02 15:21:06,754 19306 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorRMI 212 x2cRMIModelListener_setNewModel - exit
+2018-05-02 15:21:06,754 19306 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorRMI 102 setModel - exit
+2018-05-02 15:21:19,544 32096 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.gui.communicator.Communicator 1423 updateProtocolFromGui - entry
+2018-05-02 15:21:19,544 32096 ERROR      CATCHING[ EXCEPTION ] at.lcm.x2c.gui.communicator.Communicator 1443 updateProtocolFromGui - catching java.lang.NullPointerException
+	at at.lcm.x2c.gui.communicator.SerialConfigPanel.getHwInterface(SerialConfigPanel.java:218) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.InterfacePanel.getHwInterface(InterfacePanel.java:189) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator.getHwInterfaceSelection(Communicator.java:1861) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.ProtocolPanel.getProtocol(ProtocolPanel.java:132) ~[Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator.updateProtocolFromGui(Communicator.java:1426) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1333) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at at.lcm.x2c.gui.communicator.Communicator$35.doInBackground(Communicator.java:1329) [Communicator.jar:jenkins-X2C-open-84 r1116 -- 84]
+	at javax.swing.SwingWorker$1.call(SwingWorker.java:277) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [?:1.6.0_41]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [?:1.6.0_41]
+	at javax.swing.SwingWorker.run(SwingWorker.java:316) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895) [?:1.6.0_41]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918) [?:1.6.0_41]
+	at java.lang.Thread.run(Thread.java:662) [?:1.6.0_41]
+
+2018-05-02 15:21:19,549 32101 TRACE      EXIT[ FLOW ]         at.lcm.x2c.gui.communicator.Communicator 1446 updateProtocolFromGui - exit
+2018-05-02 15:21:19,628 32180 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:21:19,629 32181 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:21:19,630 32182 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:21:19,631 32183 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:21:19,633 32185 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.core.structure.Model 2118 updateParameterIdentifiers - entry
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 1 | MaskName: Constant
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 2 | MaskName: Constant1
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 3 | MaskName: Constant3
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 4 | MaskName: PI
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 5 | MaskName: PI1
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 6 | MaskName: Sub
+2018-05-02 15:21:19,633 32185 TRACE                           at.lcm.x2c.core.structure.Model 2130 updateParameterIdentifiers - ParamId: 7 | MaskName: Sub1
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 9 | MaskName: AngularVelocity
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 10 | MaskName: Commutation
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 11 | MaskName: I_Motor
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 12 | MaskName: POT
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 13 | MaskName: S1
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 14 | MaskName: S2
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2146 updateParameterIdentifiers - ParamId: 15 | MaskName: V_Motor
+2018-05-02 15:21:19,634 32186 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 16 | MaskName: V_MOTOR
+2018-05-02 15:21:19,635 32187 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 17 | MaskName: LED0
+2018-05-02 15:21:19,635 32187 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 18 | MaskName: EnableMotor
+2018-05-02 15:21:19,635 32187 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 19 | MaskName: LED1
+2018-05-02 15:21:19,635 32187 TRACE                           at.lcm.x2c.core.structure.Model 2156 updateParameterIdentifiers - ParamId: 20 | MaskName: Direction
+2018-05-02 15:21:19,635 32187 TRACE      EXIT[ FLOW ]         at.lcm.x2c.core.structure.Model 2161 updateParameterIdentifiers - exit
+2018-05-02 15:21:19,635 32187 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communication.protocol.LNet 176 getDspState - entry
+2018-05-02 15:21:19,637 32189 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communication.protocol.LNet 187 getDspState - exit with(PROGRAM_LOADED)
+2018-05-03 12:54:05,624 77598176 TRACE      ENTRY[ FLOW ]        at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 150 disconnect - entry params(X2cCommunicatorRMI[UnicastServerRef [liveRef: [endpoint:[192.168.6.147:50229](local),objID:[6e26475d:16321033349:-7fff, -4578806361456153749]]]])
+2018-05-03 12:54:05,624 77598176 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 151 disconnect - Shutting down communicator
+2018-05-03 12:54:05,624 77598176 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 152 disconnect - Shutting down communicator
+2018-05-03 12:54:05,634 77598186 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 156 disconnect - number of open communicators: 0
+2018-05-03 12:54:05,634 77598186 DEBUG                           at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 164 shutdown - Shutting down: deregistration
+2018-05-03 12:54:05,634 77598186 TRACE      EXIT[ FLOW ]         at.lcm.x2c.communicator.X2cCommunicatorManagerRMI 160 disconnect - exit
+2018-05-03 12:54:07,634 77600186 INFO                            at.lcm.x2c.communicator.X2cCommunicatorManagerRMI$1 190 run - Shutting down communicator (whole) ... done
